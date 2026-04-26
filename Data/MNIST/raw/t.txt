@@ -1,0 +1,1 @@
+Download MNIST data from offical source
