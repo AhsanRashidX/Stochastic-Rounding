@@ -1,0 +1,72 @@
+[
+  {
+    "name": "FP32_baseline",
+    "bits": 32,
+    "batch_size": 8,
+    "best_val_loss": 2.1268797589540482,
+    "best_ppl": 8.388651319215587
+  },
+  {
+    "name": "SR_8bit_b8",
+    "bits": 8,
+    "batch_size": 8,
+    "best_val_loss": 2.2130345209240914,
+    "best_ppl": 9.143420237862653
+  },
+  {
+    "name": "RTN_8bit_b8",
+    "bits": 8,
+    "batch_size": 8,
+    "best_val_loss": 2.162177864432335,
+    "best_ppl": 8.690042799702644
+  },
+  {
+    "name": "SR_8bit_b32",
+    "bits": 8,
+    "batch_size": 32,
+    "best_val_loss": 2.2051463278513106,
+    "best_ppl": 9.071578895389306
+  },
+  {
+    "name": "SR_6bit_b8",
+    "bits": 6,
+    "batch_size": 8,
+    "best_val_loss": 3.0660480501055716,
+    "best_ppl": 21.456938153346993
+  },
+  {
+    "name": "SR_6bit_b32",
+    "bits": 6,
+    "batch_size": 32,
+    "best_val_loss": 3.235511651114812,
+    "best_ppl": 25.419374303386757
+  },
+  {
+    "name": "RTN_6bit_b32",
+    "bits": 6,
+    "batch_size": 32,
+    "best_val_loss": 3.6006769414932007,
+    "best_ppl": 36.623017694609835
+  },
+  {
+    "name": "SR_4bit_b8",
+    "bits": 4,
+    "batch_size": 8,
+    "best_val_loss": 3.2314008432626724,
+    "best_ppl": 25.315094623616694
+  },
+  {
+    "name": "SR_4bit_b32",
+    "bits": 4,
+    "batch_size": 32,
+    "best_val_loss": 3.0249594544607494,
+    "best_ppl": 20.593169733097117
+  },
+  {
+    "name": "RTN_4bit_b32",
+    "bits": 4,
+    "batch_size": 32,
+    "best_val_loss": 2.906402733590868,
+    "best_ppl": 18.29088290133941
+  }
+]
