@@ -7,5 +7,5 @@ your_project/
 
 
 
-run this command
+run this command:                                    
 python gpt_experiment.py
